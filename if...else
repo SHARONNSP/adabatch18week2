@@ -1,0 +1,16 @@
+var age=65;
+var ticket=100;
+
+if(age<18){
+  ticket=ticket*0.5;
+}
+else if(age<40){
+  ticket;
+}
+else if(age<65){
+  ticket=ticket*0.75;
+}
+else{
+  ticket=ticket*0.5;
+}
+console.log(ticket);
